@@ -91,24 +91,35 @@ body
 	height: 25px;
 	margin-right: 15px;
 }
+
+/* Titre */
 .undeuxdeuxun , .undeuxtroisun , .undeuxquatreun
 {
 	border-bottom: 1px solid #feca07;
+	padding-bottom: 2%;
 }
+.titre
+{
+	margin-left: 6%;
+}
+/* fin des Titre */
 
+/* Liste */
 .fa-ul
 {
 	padding-left: 0;
 	margin-left: 0;
 	display: flex;
 	flex-direction: column;
+	text-align: left;
 
 }
 
 .ligne1 , .ligne2
 {
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-start;
+
 }
 
 .ligne2
@@ -121,6 +132,12 @@ body
 	overflow: wrap;
 }
 
+.texte_gauche
+{
+	margin-left: 2%;
+	margin-right: 5%;
+}
+/* fin de la liste */
 
 
 .undeux /* droite */
