@@ -121,6 +121,7 @@ body
 	display: flex;
 	padding-bottom: 2%;
 
+
 }
 
 
@@ -129,25 +130,8 @@ body
 	overflow: wrap;
 	margin-left: 0px;
 	width: 60%;
-
 	
-}
-
-.date
-{
-	margin-left: 10%;
-}
-
-
-.icone2 , .icone
-{
-	width: 15%;
-	float: left;
-
-}
-.icone
-{
-	margin-left: 2%;
+	
 }
 
 .texte_gauche
@@ -155,9 +139,29 @@ body
 	width: 30%;
 	height: 30px;
 	margin-right: 5%;
+	
+}
+.date
+{
+	margin-left: 10%;
+}
 
+
+.icone2 
+{
+	width: 15%;
+	float: left;
+	
 
 }
+.icone
+{
+	width: 13%;
+	float: left;
+	margin-left: 2%;
+	
+}
+
 /* fin de la liste */
 
 
