@@ -8,6 +8,7 @@ body
 	font-size: 12px;
 	font-family: Helvetica , times new roman , arial , sans-serif;
 	min-height: 300px;
+	color: #404040;
 	
 }
 
@@ -118,31 +119,51 @@ body
 .ligne1 , .ligne2
 {
 	display: flex;
-	justify-content: flex-start;
+	padding-bottom: 2%;
 
 }
 
-.ligne2
-{
-	padding-left: 1%;
-}
 
 .texte_droite
 {
 	overflow: wrap;
+	margin-left: 0px;
+	width: 60%;
+
+	
+}
+
+.date
+{
+	margin-left: 10%;
+}
+
+
+.icone2 , .icone
+{
+	width: 15%;
+	float: left;
+
+}
+.icone
+{
+	margin-left: 2%;
 }
 
 .texte_gauche
 {
-	margin-left: 2%;
+	width: 30%;
+	height: 30px;
 	margin-right: 5%;
+
+
 }
 /* fin de la liste */
 
 
 .undeux /* droite */
 {
-	margin-left: 40px;
+	margin-left: 8%;
 	
 }
 
@@ -164,8 +185,6 @@ body
 }
 
 
-
-
 .undeuxtrois
 {
 	margin-top: 10%;
@@ -173,8 +192,9 @@ body
 
 .undeuxquatre
 {
-	margin-top: 30%;
+	margin-top: 20%;
 }
+
 .undeuxquatretrois
 {
 	margin-left: 10%;
@@ -183,6 +203,7 @@ body
 .souligne
 {
 	border-bottom: 1px solid #feca07;
+	font-style: normal;
 }
 
 .finir
@@ -193,5 +214,5 @@ body
 .email
 {
 	text-decoration: none;
-	color: black;
+	color: #404040;
 }
