@@ -1,37 +1,39 @@
 body
 {
-	width: 650px;
-	height: 950px;
+	width: 80%;
 	border: 1px solid black;
 	margin: auto;
 	display: flex;
 	font-size: 12px;
-	font-family: Helvetica , times new roman , arial , sans-serif;
+	font-family: "Helvetica" , "times new roman" , "arial" , "sans-serif";
 	min-height: 300px;
 	color: #404040;
 	
 }
 
-.unun /* gauche */
+.gauche/* gauche */
 {
 	width: 30%;
 	background-color: #feca07;
 	color: #404040;
 	text-align: center;
+	position: relative;
 }
 
 .ununun
 {
 	width: 125px;
 	height: 125px;
-	border-radius: 75px;
+	border-radius: 50%;
 	border: 2px solid #daaf12;
 	margin-top: 40px;
 	margin-bottom: 10px;
 
 }
 
-.unundeuxun /* contact*/, .ununtroisun /* a propo de moi */, .ununquatreun /* loisir */
+
+
+.gauche h2
 {
 	background-color: #404040;
 	color: #feca07;
@@ -40,14 +42,20 @@ body
 }
 
 
-.unundeuxdeux 
+.contact p 
 {
 	text-align: left;
 	margin-left: 20px;
 	font-size: 11px;
 	margin-right: 20px;
 }
-.ununtroisdeux
+
+.apropos
+{
+	margin-top: 10%;
+}
+
+.apropos p
 {
 	text-align: left;
 	margin-left: 20px;
@@ -56,16 +64,13 @@ body
 	text-align: justify;
 }
 
-.ununtrois
+.loisirs
 {
-	margin-top: 10%;
-}
-.ununquatre
-{
-	margin-top: 100%;
+	position: absolute;
+	bottom: 0;
 	
-
 }
+
 .ununquatredeux
 {
 	margin: 20px 30px;
@@ -121,13 +126,12 @@ body
 	display: flex;
 	padding-bottom: 2%;
 
-
 }
 
 
 .texte_droite
 {
-	overflow: wrap;
+	overflow: wrap; /* Attention faux */
 	margin-left: 0px;
 	width: 60%;
 	
@@ -214,7 +218,14 @@ body
 {
 	display: flex;
 	justify-content: space-between;	
+	font-size: 10px;
 }
+.finition
+{
+	font-size: 12px;
+	font-style: bold; /* attention faux */
+}
+
 .email
 {
 	text-decoration: none;
