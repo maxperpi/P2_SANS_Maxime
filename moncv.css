@@ -99,7 +99,7 @@ body
 }
 
 /* Titre */
-.undeuxdeuxun , .undeuxtroisun , .undeuxquatreun
+.formation h2 , .undeuxtroisun , .undeuxquatreun
 {
 	border-bottom: 1px solid #feca07;
 	padding-bottom: 2%;
@@ -175,19 +175,19 @@ body
 	
 }
 
-.undeuxun
+.nom
 {
 	line-height: 10%;
 	margin-top: 30%;
 	margin-bottom: 30%;
 }
 
-.undeuxunun
+.nom h1
 {
 	font-size: 40px;
 }
 
-.undeuxundeux
+.nom h2
 {
 	font-size: 18px;
 }
