@@ -67,15 +67,15 @@ body
 .loisirs
 {
 	position: absolute;
-	bottom: 0;
+	bottom: 3%;
+	width: 100%;
 	
 }
 
-.ununquatredeux
+.loisirs span
 {
-	margin: 20px 30px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
 
@@ -169,7 +169,7 @@ body
 /* fin de la liste */
 
 
-.undeux /* droite */
+.droite /* droite */
 {
 	margin-left: 8%;
 	
