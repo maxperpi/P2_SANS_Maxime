@@ -6,7 +6,6 @@ body
 	display: flex;
 	font-size: 12px;
 	font-family: "Helvetica" , "times new roman" , "arial" , "sans-serif";
-	min-height: 300px;
 	color: #404040;
 	
 }
@@ -20,7 +19,7 @@ body
 	position: relative;
 }
 
-.ununun
+.photo
 {
 	width: 125px;
 	height: 125px;
@@ -99,7 +98,7 @@ body
 }
 
 /* Titre */
-.formation h2 , .undeuxtroisun , .undeuxquatreun
+.formation h2 , .experience h2 , .recommandation h2
 {
 	border-bottom: 1px solid #feca07;
 	padding-bottom: 2%;
@@ -172,6 +171,7 @@ body
 .droite /* droite */
 {
 	margin-left: 8%;
+	height: 70%;
 	
 }
 
@@ -198,12 +198,12 @@ body
 	margin-top: 10%;
 }
 
-.undeuxquatre
+.recommandation
 {
 	margin-top: 20%;
 }
 
-.undeuxquatretrois
+.ducros
 {
 	margin-left: 10%;
 }
@@ -220,7 +220,7 @@ body
 	justify-content: space-between;	
 	font-size: 10px;
 }
-.finition
+.entreprise
 {
 	font-size: 12px;
 	font-style: bold; /* attention faux */
