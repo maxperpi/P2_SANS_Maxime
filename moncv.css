@@ -167,12 +167,10 @@ body
 
 .droite /* droite */
 {
-<<<<<<< HEAD
+
 	list-style-image: url("img/cercle.png");
-=======
 	margin-left: 8%;
 	width: 50%;
->>>>>>> Cv_abouti
 	
 }
 
@@ -185,12 +183,11 @@ body
 
 .nom h1
 {
-<<<<<<< HEAD
+
 	list-style-image: url("img/cercle2.png");
-=======
 	font-size: 40px;
 
->>>>>>> Cv_abouti
+
 }
 
 .nom h2
@@ -223,14 +220,13 @@ body
 .finir
 {
 	display: flex;
-<<<<<<< HEAD
 	justify-content: space-between;	
 }
 .email
 {
 	text-decoration: none;
 	color: black;
-=======
+
 }
 
 .texte_droite strong , .finir strong
@@ -243,5 +239,4 @@ body
 {
 	text-decoration: none;
 	color: #404040;
->>>>>>> Cv_abouti
 }
