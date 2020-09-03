@@ -154,6 +154,7 @@ body
 {
 	width: 15%;
 	float: left;
+	height: 100%;
 	
 
 }
@@ -162,6 +163,7 @@ body
 	width: 13%;
 	float: left;
 	margin-left: 2%;
+	height: 100%;
 	
 }
 
@@ -171,15 +173,15 @@ body
 .droite /* droite */
 {
 	margin-left: 8%;
-	height: 70%;
+	width: 50%;
 	
 }
 
 .nom
 {
 	line-height: 10%;
-	margin-top: 30%;
-	margin-bottom: 30%;
+	margin-top: 10%;
+	margin-bottom: 10%;
 }
 
 .nom h1
@@ -193,7 +195,7 @@ body
 }
 
 
-.undeuxtrois
+.experience
 {
 	margin-top: 10%;
 }
