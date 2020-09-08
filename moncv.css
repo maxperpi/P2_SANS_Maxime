@@ -72,13 +72,6 @@ body
 	justify-content: space-around;
 }
 
-
-.jaune
-{
-	color: #face07;
-}
-
-
 .velo , .rugby , .jeu 
 {
 	width: 35px;
@@ -98,7 +91,7 @@ body
 	border-bottom: 1px solid #feca07;
 	padding-bottom: 2%;
 }
-.titre
+h2 span
 {
 	margin-left: 6%;
 }
@@ -162,16 +155,34 @@ body
 	
 }
 
-/* fin de la liste */
-
-
-.droite /* droite */
+.icone i
 {
+	font-size: 60%;
+	color:#feca07;
+}
 
-	list-style-image: url("img/cercle.png");
+.icone2 i
+{
+	font-size: 100%;
+	color:#feca07;
+}
+
+/* fin de la liste */
+h2 i
+{
+	font-size: 25px;
+	color:#feca07;
+}
+.loisirs i
+{
+	font-size:30px;
+	color:#404040;
+}
+
+.corps /* droite */
+{
 	margin-left: 8%;
 	width: 50%;
-	
 }
 
 .nom
@@ -187,7 +198,11 @@ body
 	list-style-image: url("img/cercle2.png");
 	font-size: 40px;
 
+}
 
+.nom h1 strong
+{
+	color:#face07;
 }
 
 .nom h2
@@ -204,6 +219,7 @@ body
 .recommandation
 {
 	margin-top: 20%;
+	word-wrap: break-word;
 }
 
 .ducros
@@ -211,13 +227,19 @@ body
 	margin-left: 20%;
 }
 
+.recommandation p
+{
+	width: 40%;
+}
+
+
 .souligne
 {
 	border-bottom: 1px solid #feca07;
 	font-style: normal;
 }
 
-.finir
+.recommandation div
 {
 	display: flex;
 }
@@ -233,4 +255,14 @@ body
 {
 	font-size: 15px;
 	font-weight: bold;
+}
+
+@media all and (max-width: 768px)
+{
+
+body
+{
+	width: 100%;
+}
+
 }
