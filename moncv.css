@@ -43,6 +43,13 @@ header
 
 }
 
+.nom
+{
+	line-height: 10%;
+	margin-top: 5%;
+	
+}
+
 .gauche h2
 {
 	background-color: #404040;
@@ -196,12 +203,7 @@ h2 i
 	width: 50%;
 }
 
-.nom
-{
-	line-height: 10%;
-	margin-top: 5%;
-	
-}
+
 
 .nom h1
 {
