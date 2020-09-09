@@ -306,8 +306,12 @@ body
 
 	.nom
 	{
-		margin-left: 8%;
-		width: 100%;
+		width: 90%;
+	}
+
+	h1
+	{
+		font-size: 35px;
 	}
 
 	main
