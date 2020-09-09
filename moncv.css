@@ -107,6 +107,7 @@ header
 {
 	border-bottom: 1px solid #feca07;
 	padding-bottom: 2%;
+
 }
 
 h2 span
@@ -287,6 +288,40 @@ body
 {
 	body
 	{
-		width: 50%;
+		width: 100%;
 	}
+
+	header
+	 {
+	 	flex-direction: column;
+
+	 }
+
+	.profil
+	{
+		background-color: white;
+		margin: auto;
+	}
+
+	.nom
+	{
+		margin: auto;
+		width: 100%;
+	}
+
+	main
+	{
+		flex-direction: column-reverse;
+	}
+
+	.corps
+	{
+		width: 90%;
+	}
+
+	.gauche
+	{
+		width: 100%;
+	}
+
 }
