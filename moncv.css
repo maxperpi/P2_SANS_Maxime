@@ -259,7 +259,7 @@ h2 i
 .email
 {
 	text-decoration: none;
-	color: black;
+	color: #404040;
 
 }
 
@@ -281,4 +281,12 @@ body
 	width: 100%;
 }
 
+}
+
+@media all and (max-width: 428px)
+{
+	body
+	{
+		width: 50%;
+	}
 }
