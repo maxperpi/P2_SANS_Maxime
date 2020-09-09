@@ -273,7 +273,7 @@ h2 i
 
 
 
-@media all and (max-width: 768px)
+@media (min-width: 429px) and (max-width: 768px)
 {
 
 body
